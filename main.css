@@ -1,0 +1,26 @@
+.square{
+    width: 200px;
+    height: 200px;
+    border: 3px solid #F0F295;
+}
+.block{
+    display: flex;
+}
+
+.grid{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    width: 618px;
+    height: 618px;
+    position: absolute;
+    right: 0;
+}
+.mole{
+    background: url('alien.png');
+    background-size: cover;
+}
+#score,  #time-left{
+    color: #BDBDBD;
+}
